@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9F6B0C1F27CFC7E000CAAB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C1E27CFC7E000CAAB05 /* AppDelegate.swift */; };
-		9F6B0C2127CFC7E000CAAB05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C2027CFC7E000CAAB05 /* SceneDelegate.swift */; };
-		9F6B0C2327CFC7E000CAAB05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C2227CFC7E000CAAB05 /* ViewController.swift */; };
-		9F6B0C2627CFC7E000CAAB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C2427CFC7E000CAAB05 /* Main.storyboard */; };
 		9F6B0C2827CFC7E200CAAB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C2727CFC7E200CAAB05 /* Assets.xcassets */; };
 		9F6B0C2B27CFC7E200CAAB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C2927CFC7E200CAAB05 /* LaunchScreen.storyboard */; };
 		9F6B0C3627CFC7E300CAAB05 /* TarefasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C3527CFC7E300CAAB05 /* TarefasTests.swift */; };
 		9F6B0C4027CFC7E300CAAB05 /* TarefasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C3F27CFC7E300CAAB05 /* TarefasUITests.swift */; };
 		9F6B0C4227CFC7E300CAAB05 /* TarefasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C4127CFC7E300CAAB05 /* TarefasUITestsLaunchTests.swift */; };
+		9F6B0C5027CFC9F400CAAB05 /* TarefasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C4F27CFC9F400CAAB05 /* TarefasViewController.xib */; };
+		9F6B0C5227CFCA3A00CAAB05 /* TarefasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C5127CFCA3A00CAAB05 /* TarefasViewController.swift */; };
+		9F6B0C5527CFCF1800CAAB05 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C5427CFCF1800CAAB05 /* Tarefa.swift */; };
+		9F6B0C5F27CFD23700CAAB05 /* TarefaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C5D27CFD23700CAAB05 /* TarefaCell.swift */; };
+		9F6B0C6027CFD23700CAAB05 /* TarefaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C5E27CFD23700CAAB05 /* TarefaCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,6 @@
 /* Begin PBXFileReference section */
 		9F6B0C1B27CFC7E000CAAB05 /* Tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarefas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B0C1E27CFC7E000CAAB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F6B0C2027CFC7E000CAAB05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F6B0C2227CFC7E000CAAB05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F6B0C2527CFC7E000CAAB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F6B0C2727CFC7E200CAAB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6B0C2A27CFC7E200CAAB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6B0C2C27CFC7E200CAAB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,11 @@
 		9F6B0C3B27CFC7E300CAAB05 /* TarefasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarefasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B0C3F27CFC7E300CAAB05 /* TarefasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasUITests.swift; sourceTree = "<group>"; };
 		9F6B0C4127CFC7E300CAAB05 /* TarefasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F6B0C4F27CFC9F400CAAB05 /* TarefasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TarefasViewController.xib; sourceTree = "<group>"; };
+		9F6B0C5127CFCA3A00CAAB05 /* TarefasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasViewController.swift; sourceTree = "<group>"; };
+		9F6B0C5427CFCF1800CAAB05 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
+		9F6B0C5D27CFD23700CAAB05 /* TarefaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaCell.swift; sourceTree = "<group>"; };
+		9F6B0C5E27CFD23700CAAB05 /* TarefaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TarefaCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,9 @@
 		9F6B0C1D27CFC7E000CAAB05 /* Tarefas */ = {
 			isa = PBXGroup;
 			children = (
+				9F6B0C5327CFCEF700CAAB05 /* Models */,
+				9F6B0C4E27CFC9B900CAAB05 /* Views */,
 				9F6B0C1E27CFC7E000CAAB05 /* AppDelegate.swift */,
-				9F6B0C2027CFC7E000CAAB05 /* SceneDelegate.swift */,
-				9F6B0C2227CFC7E000CAAB05 /* ViewController.swift */,
-				9F6B0C2427CFC7E000CAAB05 /* Main.storyboard */,
 				9F6B0C2727CFC7E200CAAB05 /* Assets.xcassets */,
 				9F6B0C2927CFC7E200CAAB05 /* LaunchScreen.storyboard */,
 				9F6B0C2C27CFC7E200CAAB05 /* Info.plist */,
@@ -125,6 +128,33 @@
 				9F6B0C4127CFC7E300CAAB05 /* TarefasUITestsLaunchTests.swift */,
 			);
 			path = TarefasUITests;
+			sourceTree = "<group>";
+		};
+		9F6B0C4E27CFC9B900CAAB05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B0C5627CFD17000CAAB05 /* Cell */,
+				9F6B0C4F27CFC9F400CAAB05 /* TarefasViewController.xib */,
+				9F6B0C5127CFCA3A00CAAB05 /* TarefasViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F6B0C5327CFCEF700CAAB05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B0C5427CFCF1800CAAB05 /* Tarefa.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F6B0C5627CFD17000CAAB05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B0C5D27CFD23700CAAB05 /* TarefaCell.swift */,
+				9F6B0C5E27CFD23700CAAB05 /* TarefaCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6B0C2B27CFC7E200CAAB05 /* LaunchScreen.storyboard in Resources */,
+				9F6B0C5027CFC9F400CAAB05 /* TarefasViewController.xib in Resources */,
+				9F6B0C6027CFD23700CAAB05 /* TarefaCell.xib in Resources */,
 				9F6B0C2827CFC7E200CAAB05 /* Assets.xcassets in Resources */,
-				9F6B0C2627CFC7E000CAAB05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6B0C2327CFC7E000CAAB05 /* ViewController.swift in Sources */,
 				9F6B0C1F27CFC7E000CAAB05 /* AppDelegate.swift in Sources */,
-				9F6B0C2127CFC7E000CAAB05 /* SceneDelegate.swift in Sources */,
+				9F6B0C5527CFCF1800CAAB05 /* Tarefa.swift in Sources */,
+				9F6B0C5F27CFD23700CAAB05 /* TarefaCell.swift in Sources */,
+				9F6B0C5227CFCA3A00CAAB05 /* TarefasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F6B0C2427CFC7E000CAAB05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6B0C2527CFC7E000CAAB05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F6B0C2927CFC7E200CAAB05 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,9 +468,9 @@
 				INFOPLIST_FILE = Tarefas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,9 +496,9 @@
 				INFOPLIST_FILE = Tarefas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
