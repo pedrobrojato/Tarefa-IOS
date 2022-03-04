@@ -31,7 +31,15 @@ class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        tableView.deselectRow(at: indexPath, animated: true)
+        let tarefa = tarefas[indexPath.row]
+        print(tarefa)
+        goToDetails()
+    }
+    
+    func goToDetails() {
+        let detail = TaskDetailViewController(nibName: nil, bundle: nil)
+        navigationController?.pushViewController(detail, animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

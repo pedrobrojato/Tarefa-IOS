@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4C68B727D2AFF100F3F0C4 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4C68B527D2AFF100F3F0C4 /* TaskDetailViewController.swift */; };
+		9F4C68B827D2AFF200F3F0C4 /* TaskDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C68B627D2AFF100F3F0C4 /* TaskDetailViewController.xib */; };
 		9F6B0C1F27CFC7E000CAAB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C1E27CFC7E000CAAB05 /* AppDelegate.swift */; };
 		9F6B0C2827CFC7E200CAAB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C2727CFC7E200CAAB05 /* Assets.xcassets */; };
 		9F6B0C2B27CFC7E200CAAB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C2927CFC7E200CAAB05 /* LaunchScreen.storyboard */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F4C68B527D2AFF100F3F0C4 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		9F4C68B627D2AFF100F3F0C4 /* TaskDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskDetailViewController.xib; sourceTree = "<group>"; };
 		9F6B0C1B27CFC7E000CAAB05 /* Tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarefas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B0C1E27CFC7E000CAAB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6B0C2727CFC7E200CAAB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F4C68B327D2AF3100F3F0C4 /* Tarefas */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B0C5627CFD17000CAAB05 /* Cell */,
+				9F6B0C4F27CFC9F400CAAB05 /* TarefasViewController.xib */,
+				9F6B0C5127CFCA3A00CAAB05 /* TarefasViewController.swift */,
+			);
+			path = Tarefas;
+			sourceTree = "<group>";
+		};
+		9F4C68B427D2AF9F00F3F0C4 /* Detalhes */ = {
+			isa = PBXGroup;
+			children = (
+				9F4C68B527D2AFF100F3F0C4 /* TaskDetailViewController.swift */,
+				9F4C68B627D2AFF100F3F0C4 /* TaskDetailViewController.xib */,
+			);
+			path = Detalhes;
+			sourceTree = "<group>";
+		};
 		9F6B0C1227CFC7E000CAAB05 = {
 			isa = PBXGroup;
 			children = (
@@ -133,9 +156,8 @@
 		9F6B0C4E27CFC9B900CAAB05 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9F6B0C5627CFD17000CAAB05 /* Cell */,
-				9F6B0C4F27CFC9F400CAAB05 /* TarefasViewController.xib */,
-				9F6B0C5127CFCA3A00CAAB05 /* TarefasViewController.swift */,
+				9F4C68B427D2AF9F00F3F0C4 /* Detalhes */,
+				9F4C68B327D2AF3100F3F0C4 /* Tarefas */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4C68B827D2AFF200F3F0C4 /* TaskDetailViewController.xib in Resources */,
 				9F6B0C2B27CFC7E200CAAB05 /* LaunchScreen.storyboard in Resources */,
 				9F6B0C5027CFC9F400CAAB05 /* TarefasViewController.xib in Resources */,
 				9F6B0C6027CFD23700CAAB05 /* TarefaCell.xib in Resources */,
@@ -293,6 +316,7 @@
 				9F6B0C5527CFCF1800CAAB05 /* Tarefa.swift in Sources */,
 				9F6B0C5F27CFD23700CAAB05 /* TarefaCell.swift in Sources */,
 				9F6B0C5227CFCA3A00CAAB05 /* TarefasViewController.swift in Sources */,
+				9F4C68B727D2AFF100F3F0C4 /* TaskDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

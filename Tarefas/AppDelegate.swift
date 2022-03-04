@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow()
         let tarefasViewController = TarefasViewController(nibName: nil, bundle: nil)
-        window?.rootViewController = tarefasViewController
+        let navigation = UINavigationController(rootViewController: tarefasViewController)
+        window?.rootViewController = navigation
         window?.makeKeyAndVisible()
         return true
     }
