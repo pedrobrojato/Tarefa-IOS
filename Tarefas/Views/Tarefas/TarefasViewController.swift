@@ -10,18 +10,35 @@ import UIKit
 
 class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     let tarefas: [Tarefa] = [
         Tarefa(name: "Dormir", concluded: false),
         Tarefa(name: "Comer", concluded: false),
         Tarefa(name: "Tomar banho", concluded: true)
     ]
     
-    @IBOutlet weak var tableView: UITableView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Tarefas"
         configTableView()
+        configNavigation()
     }
+    
+    func configNavigation() {
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add,
+                                        target: self,
+                                        action: #selector(goToNewTask))
+        navigationItem.rightBarButtonItem = addButton
+        
+    }
+    
+    
+    @objc func goToNewTask() {
+        let newTask = NewTaskViewController(nibName: nil, bundle: nil)
+        navigationController?.pushViewController( newTask, animated: true)
+    }
+    
     
     func configTableView() {
         let nib = UINib(nibName: "TarefaCell", bundle: nil)
@@ -33,12 +50,13 @@ class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let tarefa = tarefas[indexPath.row]
-        print(tarefa)
-        goToDetails()
+        goToDetails(with: tarefa)
     }
     
-    func goToDetails() {
-        let detail = TaskDetailViewController(nibName: nil, bundle: nil)
+    
+    func goToDetails(with task: Tarefa) {
+        print("MINHA TAREFA", task)
+        let detail = TaskDetailViewController(task: task)
         navigationController?.pushViewController(detail, animated: true)
     }
     
@@ -61,3 +79,5 @@ class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
 }
+
+

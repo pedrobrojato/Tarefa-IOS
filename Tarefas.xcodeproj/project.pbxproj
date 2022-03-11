@@ -20,6 +20,8 @@
 		9F6B0C5527CFCF1800CAAB05 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C5427CFCF1800CAAB05 /* Tarefa.swift */; };
 		9F6B0C5F27CFD23700CAAB05 /* TarefaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B0C5D27CFD23700CAAB05 /* TarefaCell.swift */; };
 		9F6B0C6027CFD23700CAAB05 /* TarefaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B0C5E27CFD23700CAAB05 /* TarefaCell.xib */; };
+		9FB6B6F727DA23D900F88F2C /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB6B6F627DA23D800F88F2C /* NewTaskViewController.swift */; };
+		9FB6B6F927DA4F2E00F88F2C /* NewTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB6B6F827DA4F2E00F88F2C /* NewTaskViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		9F6B0C5427CFCF1800CAAB05 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
 		9F6B0C5D27CFD23700CAAB05 /* TarefaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaCell.swift; sourceTree = "<group>"; };
 		9F6B0C5E27CFD23700CAAB05 /* TarefaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TarefaCell.xib; sourceTree = "<group>"; };
+		9FB6B6F627DA23D800F88F2C /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		9FB6B6F827DA4F2E00F88F2C /* NewTaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTaskViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 		9F6B0C4E27CFC9B900CAAB05 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9FB6B6FA27DA4F6800F88F2C /* NewTask */,
 				9F4C68B427D2AF9F00F3F0C4 /* Detalhes */,
 				9F4C68B327D2AF3100F3F0C4 /* Tarefas */,
 			);
@@ -177,6 +182,15 @@
 				9F6B0C5E27CFD23700CAAB05 /* TarefaCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		9FB6B6FA27DA4F6800F88F2C /* NewTask */ = {
+			isa = PBXGroup;
+			children = (
+				9FB6B6F627DA23D800F88F2C /* NewTaskViewController.swift */,
+				9FB6B6F827DA4F2E00F88F2C /* NewTaskViewController.xib */,
+			);
+			path = NewTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +299,7 @@
 			files = (
 				9F4C68B827D2AFF200F3F0C4 /* TaskDetailViewController.xib in Resources */,
 				9F6B0C2B27CFC7E200CAAB05 /* LaunchScreen.storyboard in Resources */,
+				9FB6B6F927DA4F2E00F88F2C /* NewTaskViewController.xib in Resources */,
 				9F6B0C5027CFC9F400CAAB05 /* TarefasViewController.xib in Resources */,
 				9F6B0C6027CFD23700CAAB05 /* TarefaCell.xib in Resources */,
 				9F6B0C2827CFC7E200CAAB05 /* Assets.xcassets in Resources */,
@@ -316,6 +331,7 @@
 				9F6B0C5527CFCF1800CAAB05 /* Tarefa.swift in Sources */,
 				9F6B0C5F27CFD23700CAAB05 /* TarefaCell.swift in Sources */,
 				9F6B0C5227CFCA3A00CAAB05 /* TarefasViewController.swift in Sources */,
+				9FB6B6F727DA23D900F88F2C /* NewTaskViewController.swift in Sources */,
 				9F4C68B727D2AFF100F3F0C4 /* TaskDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

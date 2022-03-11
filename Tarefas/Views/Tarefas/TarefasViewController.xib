@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TarefasViewController" customModule="Tarefas" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="8ig-f2-X3P" id="nNt-BX-xR2"/>
+                <outlet property="tableView" destination="8ig-f2-X3P" id="UCj-P8-CA5"/>
                 <outlet property="view" destination="iN0-l3-epB" id="7NR-Fd-9cc"/>
             </connections>
         </placeholder>
@@ -33,7 +33,7 @@
                 <constraint firstItem="8ig-f2-X3P" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="NaU-Cj-slq"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8ig-f2-X3P" secondAttribute="trailing" id="r5s-NN-q5r"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="144"/>
+            <point key="canvasLocation" x="137.68115942028987" y="143.97321428571428"/>
         </view>
     </objects>
     <resources>
