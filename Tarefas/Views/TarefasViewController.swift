@@ -8,11 +8,12 @@
 import Foundation
 import UIKit
 
+
 class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let tarefas: [Tarefa] = [
+    let tarefas = [
         Tarefa(name: "Dormir", concluded: false),
         Tarefa(name: "Comer", concluded: false),
         Tarefa(name: "Tomar banho", concluded: true)
@@ -30,15 +31,12 @@ class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewD
                                         target: self,
                                         action: #selector(goToNewTask))
         navigationItem.rightBarButtonItem = addButton
-        
     }
-    
     
     @objc func goToNewTask() {
         let newTask = NewTaskViewController(nibName: nil, bundle: nil)
         navigationController?.pushViewController( newTask, animated: true)
     }
-    
     
     func configTableView() {
         let nib = UINib(nibName: "TarefaCell", bundle: nil)
@@ -53,9 +51,8 @@ class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewD
         goToDetails(with: tarefa)
     }
     
-    
     func goToDetails(with task: Tarefa) {
-        print("MINHA TAREFA", task)
+        print(task)
         let detail = TaskDetailViewController(task: task)
         navigationController?.pushViewController(detail, animated: true)
     }
@@ -79,5 +76,3 @@ class TarefasViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
 }
-
-

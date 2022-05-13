@@ -24,8 +24,5 @@ class TaskDetailViewController: UIViewController {
         super.viewDidLoad()
         title = task.name
     }
-    
-
-    
-    
 }
+

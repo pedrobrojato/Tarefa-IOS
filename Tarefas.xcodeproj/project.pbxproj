@@ -92,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				9F6B0C5627CFD17000CAAB05 /* Cell */,
-				9F6B0C4F27CFC9F400CAAB05 /* TarefasViewController.xib */,
-				9F6B0C5127CFCA3A00CAAB05 /* TarefasViewController.swift */,
 			);
 			path = Tarefas;
 			sourceTree = "<group>";
@@ -160,6 +158,8 @@
 		9F6B0C4E27CFC9B900CAAB05 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F6B0C5127CFCA3A00CAAB05 /* TarefasViewController.swift */,
+				9F6B0C4F27CFC9F400CAAB05 /* TarefasViewController.xib */,
 				9FB6B6FA27DA4F6800F88F2C /* NewTask */,
 				9F4C68B427D2AF9F00F3F0C4 /* Detalhes */,
 				9F4C68B327D2AF3100F3F0C4 /* Tarefas */,
@@ -257,7 +257,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					9F6B0C1A27CFC7E000CAAB05 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -489,6 +489,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -510,7 +511,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,7 +539,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
